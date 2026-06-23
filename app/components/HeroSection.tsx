@@ -20,7 +20,7 @@ export function HeroSection() {
 
         <p className="tagline">AI ads that don't look like AI</p>
 
-        <a className="cta-button" href="#">
+        <a className="cta-button" href="https://wa.me/966554085657">
           Get your free ad
         </a>
 

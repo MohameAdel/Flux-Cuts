@@ -3,7 +3,7 @@ import { VideoCard } from "./VideoCard";
 
 export function GallerySection() {
   return (
-    <section className="gallery" aria-label="AI ad creative examples">
+    <section id="gallery" className="gallery" aria-label="AI ad creative examples">
       <div className="gallery-desktop">
         {galleryGroups.map((group, groupIndex) => (
           <div

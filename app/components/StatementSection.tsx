@@ -1,6 +1,6 @@
 export function StatementSection() {
   return (
-    <section className="statement-section" aria-labelledby="agency-title">
+    <section id="statement" className="statement-section" aria-labelledby="agency-title">
       <div className="statement-inner">
         <h2 id="agency-title">
           How is this different from hiring a traditional agency?

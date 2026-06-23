@@ -3,7 +3,7 @@ import { AudienceIcon } from "./AudienceIcon";
 
 export function WhoItsForSection() {
   return (
-    <section className="who-section" aria-labelledby="who-title">
+    <section id="who-its-for" className="who-section" aria-labelledby="who-title">
       <div className="who-inner">
         <div className="who-header">
           <h2 id="who-title">Who It's For</h2>
@@ -22,13 +22,13 @@ export function WhoItsForSection() {
               </div>
               <h3>{card.title}</h3>
               <p>{card.copy}</p>
-              {card.link ? <a href="#products">{card.link}</a> : null}
+              {card.link ? <a href="https://wa.me/966554085657">{card.link}</a> : null}
             </article>
           ))}
         </div>
 
-        <a className="section-button" href="#pricing">
-          View pricing
+        <a className="section-button" href="https://wa.me/966554085657">
+          GET STARTED
         </a>
       </div>
     </section>

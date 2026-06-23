@@ -7,7 +7,7 @@ export function FinalCtaSection() {
           No more expensive shoots. No more slow turnarounds. High-performance
           creative delivered in 48 hours.
         </p>
-        <a className="section-button" href="#pricing">
+        <a className="section-button" href="https://wa.me/966554085657">
           Get started
         </a>
       </div>

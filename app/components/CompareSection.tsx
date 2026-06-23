@@ -2,7 +2,7 @@ import { compareRows } from "../content";
 
 export function CompareSection() {
   return (
-    <section className="compare-section" aria-labelledby="compare-title">
+    <section id="compare" className="compare-section" aria-labelledby="compare-title">
       <div className="compare-block">
         <h2 id="compare-title">How We Compare</h2>
 

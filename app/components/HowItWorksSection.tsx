@@ -2,7 +2,7 @@ import { howSteps } from "../content";
 
 export function HowItWorksSection() {
   return (
-    <section className="how-section" aria-labelledby="how-title">
+    <section id="how-it-works" className="how-section" aria-labelledby="how-title">
       <div className="how-inner">
         <h2 id="how-title">How It Works</h2>
 
@@ -18,7 +18,7 @@ export function HowItWorksSection() {
           ))}
         </div>
 
-        <a className="section-button" href="#contact">
+        <a className="section-button" href="https://wa.me/966554085657">
           Book a discovery call
         </a>
       </div>

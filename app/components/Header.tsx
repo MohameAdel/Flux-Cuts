@@ -1,6 +1,15 @@
-import { logoUrl, navItems } from "../content";
+import { logoUrl } from "../content";
 
 export function Header() {
+  const links = [
+    { label: "GALLERY", href: "#gallery" },
+    { label: "STATEMENT", href: "#statement" },
+    { label: "COMPARE", href: "#compare" },
+    { label: "HOW IT WORKS", href: "#how-it-works" },
+    { label: "WHO IT'S FOR", href: "#who-its-for" },
+    { label: "FAQ", href: "#faq" },
+  ];
+
   return (
     <header className="site-header" aria-label="Primary navigation">
       <div className="nav-inner">
@@ -17,19 +26,16 @@ export function Header() {
         </a>
 
         <nav className="nav-links" aria-label="Main navigation">
-          {navItems.map((item) => (
-            <a key={item} href="#">
-              {item}
+          {links.map((link) => (
+            <a key={link.label} href={link.href}>
+              {link.label}
             </a>
           ))}
-
-          <a className="account-link" href="#" aria-label="Sign in">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-              <circle cx="12" cy="7" r="4" />
-            </svg>
-          </a>
         </nav>
+
+        <a className="btn-get-started header-cta" href="https://wa.me/966554085657" aria-label="Get Started">
+          GET STARTED
+        </a>
       </div>
     </header>
   );
