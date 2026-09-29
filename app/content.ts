@@ -7,6 +7,11 @@ export const navItems = ["Pricing", "Products", "Blog", "Contact"];
 
 export const galleryVideos = [
   {
+    label: "Explore Islam ad creative",
+    src: "/videos/world-cup.mp4",
+    poster: "/videos/world-cup-poster.jpg",
+  },
+  {
     label: "Flux Cuts branded handbag",
     src: "https://videos.zeroshoots.com/small_BAG_1webmwebm.webm",
   },
@@ -75,7 +80,7 @@ export const galleryGroups = [
     top: 30,
     columns: [
       { top: 0, videos: [galleryVideos[8], galleryVideos[9]] },
-      { top: 70, videos: [galleryVideos[10], galleryVideos[11]] },
+      { top: 70, videos: [galleryVideos[10], galleryVideos[11], galleryVideos[12]] },
     ],
   },
 ];
